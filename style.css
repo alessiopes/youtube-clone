@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* COLOR PALETTE AT https://coolors.co/6a8888-303030-272727-222222-181818-0f0f0f */
+
+
+      body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+        background-color: #0F0F0F;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .topbar {
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0.5em 1em;
+      }
+
+      .content {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .icon {
+        height: 6vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.8em;
+        margin: 0 0.5em;
+        cursor: pointer;
+        color: white;
+      }
+
+      .icon:hover {
+        background-color: #181818;
+        border-radius: 10px;
+      }
+
+      .icon ion-icon {
+        font-size: 1.5em;
+      }
+
+      .icon-topbar ion-icon {
+        font-size: 2em;
+      }
+
+      .icon p {
+        margin: 0.6em 0;
+        font-size: 0.9em;
+      }
+
+      .icon:not(:first-of-type) {
+        height: 8.5vh;
+      }
+
+      .logo {
+        height: 40%;
+      }
+
+      .search-wrapper {
+        display: flex;
+        height: 70%;
+        width: 36%;
+      }
+
+      .search-wrapper input {
+        width: 100%;
+        padding: 0 1em;
+        font-size: 1.1em;
+        border-top-left-radius: 6em;
+        border-bottom-left-radius: 6em;
+        background-color: transparent;
+        border: 1px solid #303030;
+
+      }
+
+      .search-wrapper input:hover {
+        background-color: #181818;
+        transition: 0.25s;
+      }
+
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+
+      .top-icon {
+        font-size: 2em;
+        padding: 0 0.5em;
+      }
+
+      .mic-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        background-color: #181818;
+        border-radius: 50%;
+        padding: 0 0.45em;
+        padding-left: 0.40em;
+        margin: 0 0.7em;
+        color:#fff;
+        cursor: pointer;
+      }
+
+      .mic-icon:hover{
+        background-color: #272727;
+        transition: 0.15s;
+      }
+
+      .search-btn {
+        padding: 0 0.7em;
+        padding-left: 0.5em;
+        font-size: 1.4em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 6em;
+        border-bottom-right-radius: 6em;
+        border: solid 1px #303030;
+        width: 3.7em;
+        background-color: #272727;
+        color: #b8b8b8;
+        cursor: pointer;
+      }
+
+      .search-btn:hover {
+        background-color: #222222;
+        transition: 0.15s;
+      }
+
+      .cover-thumb img {
+        display: flex;
+        max-width: 420px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.20s;
+    }
+
+    .cover-thumb img:hover {
+        opacity: 75%;
+    }
+
+    .thumbnail {
+        display: flex;
+        flex-direction: column;
+        margin: 0.7em; 
+        padding: 1em 0.1em;
+        justify-content: space-around;
+    }
+
+    .logo-text-thumb {
+        display: flex;
+        align-items: center;
+        margin: 0.5em 0.2em;
+    }
+
+    .footer-thumb-logo {
+        height: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.15s;
+        border-radius: 50%;
+        outline: solid 1px #303030;
+    }
+
+    .footer-thumb-logo:hover {
+        opacity: 75%;
+    }
+
+    .text-thumb h2 {
+        font-size: 1.3em;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .text-thumb h3 {
+        font-size: 1em;
+        font-weight: 400;     
+        color: #B8B8B8;   
+    }
+
+    .text-thumb h2, h3 {
+        margin: 0;
+        cursor: pointer;
+        display: flex;
+        align-self: start;
+        transition: 0.15s;
+    }
+
+    .text-thumb h2:hover {
+      opacity: 75%;
+    }
+
+    .text-thumb h3:hover {
+      opacity: 75%;
+    }
+
+
+    .text-thumb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 0.65em;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        padding: 2.5em 1.5em;
+        align-content: start;
+    }
